@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B213F7A72817DBD300A76D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213F7A62817DBD300A76D97 /* AppDelegate.swift */; };
+		B213F7A92817DBD300A76D97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213F7A82817DBD300A76D97 /* SceneDelegate.swift */; };
+		B213F7AB2817DBD300A76D97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213F7AA2817DBD300A76D97 /* ViewController.swift */; };
+		B213F7AE2817DBD300A76D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B213F7AC2817DBD300A76D97 /* Main.storyboard */; };
+		B213F7B02817DBD400A76D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B213F7AF2817DBD400A76D97 /* Assets.xcassets */; };
+		B213F7B32817DBD400A76D97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B213F7B12817DBD400A76D97 /* LaunchScreen.storyboard */; };
+		B213F7BE2817DBD400A76D97 /* KanboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213F7BD2817DBD400A76D97 /* KanboTests.swift */; };
+		B213F7C82817DBD400A76D97 /* KanboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213F7C72817DBD400A76D97 /* KanboUITests.swift */; };
+		B213F7CA2817DBD400A76D97 /* KanboUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213F7C92817DBD400A76D97 /* KanboUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B213F7BA2817DBD400A76D97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B213F79B2817DBD300A76D97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B213F7A22817DBD300A76D97;
+			remoteInfo = Kanbo;
+		};
+		B213F7C42817DBD400A76D97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B213F79B2817DBD300A76D97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B213F7A22817DBD300A76D97;
+			remoteInfo = Kanbo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B213F7A32817DBD300A76D97 /* Kanbo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kanbo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B213F7A62817DBD300A76D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B213F7A82817DBD300A76D97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B213F7AA2817DBD300A76D97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B213F7AD2817DBD300A76D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B213F7AF2817DBD400A76D97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B213F7B22817DBD400A76D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B213F7B42817DBD400A76D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B213F7B92817DBD400A76D97 /* KanboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B213F7BD2817DBD400A76D97 /* KanboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanboTests.swift; sourceTree = "<group>"; };
+		B213F7C32817DBD400A76D97 /* KanboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B213F7C72817DBD400A76D97 /* KanboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanboUITests.swift; sourceTree = "<group>"; };
+		B213F7C92817DBD400A76D97 /* KanboUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanboUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B213F7A02817DBD300A76D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B213F7B62817DBD400A76D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B213F7C02817DBD400A76D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B213F79A2817DBD300A76D97 = {
+			isa = PBXGroup;
+			children = (
+				B213F7A52817DBD300A76D97 /* Kanbo */,
+				B213F7BC2817DBD400A76D97 /* KanboTests */,
+				B213F7C62817DBD400A76D97 /* KanboUITests */,
+				B213F7A42817DBD300A76D97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B213F7A42817DBD300A76D97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B213F7A32817DBD300A76D97 /* Kanbo.app */,
+				B213F7B92817DBD400A76D97 /* KanboTests.xctest */,
+				B213F7C32817DBD400A76D97 /* KanboUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B213F7A52817DBD300A76D97 /* Kanbo */ = {
+			isa = PBXGroup;
+			children = (
+				B213F7A62817DBD300A76D97 /* AppDelegate.swift */,
+				B213F7A82817DBD300A76D97 /* SceneDelegate.swift */,
+				B213F7AA2817DBD300A76D97 /* ViewController.swift */,
+				B213F7AC2817DBD300A76D97 /* Main.storyboard */,
+				B213F7AF2817DBD400A76D97 /* Assets.xcassets */,
+				B213F7B12817DBD400A76D97 /* LaunchScreen.storyboard */,
+				B213F7B42817DBD400A76D97 /* Info.plist */,
+			);
+			path = Kanbo;
+			sourceTree = "<group>";
+		};
+		B213F7BC2817DBD400A76D97 /* KanboTests */ = {
+			isa = PBXGroup;
+			children = (
+				B213F7BD2817DBD400A76D97 /* KanboTests.swift */,
+			);
+			path = KanboTests;
+			sourceTree = "<group>";
+		};
+		B213F7C62817DBD400A76D97 /* KanboUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B213F7C72817DBD400A76D97 /* KanboUITests.swift */,
+				B213F7C92817DBD400A76D97 /* KanboUITestsLaunchTests.swift */,
+			);
+			path = KanboUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B213F7A22817DBD300A76D97 /* Kanbo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B213F7CD2817DBD400A76D97 /* Build configuration list for PBXNativeTarget "Kanbo" */;
+			buildPhases = (
+				B213F79F2817DBD300A76D97 /* Sources */,
+				B213F7A02817DBD300A76D97 /* Frameworks */,
+				B213F7A12817DBD300A76D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kanbo;
+			productName = Kanbo;
+			productReference = B213F7A32817DBD300A76D97 /* Kanbo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B213F7B82817DBD400A76D97 /* KanboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B213F7D02817DBD400A76D97 /* Build configuration list for PBXNativeTarget "KanboTests" */;
+			buildPhases = (
+				B213F7B52817DBD400A76D97 /* Sources */,
+				B213F7B62817DBD400A76D97 /* Frameworks */,
+				B213F7B72817DBD400A76D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B213F7BB2817DBD400A76D97 /* PBXTargetDependency */,
+			);
+			name = KanboTests;
+			productName = KanboTests;
+			productReference = B213F7B92817DBD400A76D97 /* KanboTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B213F7C22817DBD400A76D97 /* KanboUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B213F7D32817DBD400A76D97 /* Build configuration list for PBXNativeTarget "KanboUITests" */;
+			buildPhases = (
+				B213F7BF2817DBD400A76D97 /* Sources */,
+				B213F7C02817DBD400A76D97 /* Frameworks */,
+				B213F7C12817DBD400A76D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B213F7C52817DBD400A76D97 /* PBXTargetDependency */,
+			);
+			name = KanboUITests;
+			productName = KanboUITests;
+			productReference = B213F7C32817DBD400A76D97 /* KanboUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B213F79B2817DBD300A76D97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					B213F7A22817DBD300A76D97 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					B213F7B82817DBD400A76D97 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B213F7A22817DBD300A76D97;
+					};
+					B213F7C22817DBD400A76D97 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B213F7A22817DBD300A76D97;
+					};
+				};
+			};
+			buildConfigurationList = B213F79E2817DBD300A76D97 /* Build configuration list for PBXProject "Kanbo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B213F79A2817DBD300A76D97;
+			productRefGroup = B213F7A42817DBD300A76D97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B213F7A22817DBD300A76D97 /* Kanbo */,
+				B213F7B82817DBD400A76D97 /* KanboTests */,
+				B213F7C22817DBD400A76D97 /* KanboUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B213F7A12817DBD300A76D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B213F7B32817DBD400A76D97 /* LaunchScreen.storyboard in Resources */,
+				B213F7B02817DBD400A76D97 /* Assets.xcassets in Resources */,
+				B213F7AE2817DBD300A76D97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B213F7B72817DBD400A76D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B213F7C12817DBD400A76D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B213F79F2817DBD300A76D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B213F7AB2817DBD300A76D97 /* ViewController.swift in Sources */,
+				B213F7A72817DBD300A76D97 /* AppDelegate.swift in Sources */,
+				B213F7A92817DBD300A76D97 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B213F7B52817DBD400A76D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B213F7BE2817DBD400A76D97 /* KanboTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B213F7BF2817DBD400A76D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B213F7CA2817DBD400A76D97 /* KanboUITestsLaunchTests.swift in Sources */,
+				B213F7C82817DBD400A76D97 /* KanboUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B213F7BB2817DBD400A76D97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B213F7A22817DBD300A76D97 /* Kanbo */;
+			targetProxy = B213F7BA2817DBD400A76D97 /* PBXContainerItemProxy */;
+		};
+		B213F7C52817DBD400A76D97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B213F7A22817DBD300A76D97 /* Kanbo */;
+			targetProxy = B213F7C42817DBD400A76D97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B213F7AC2817DBD300A76D97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B213F7AD2817DBD300A76D97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B213F7B12817DBD400A76D97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B213F7B22817DBD400A76D97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B213F7CB2817DBD400A76D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B213F7CC2817DBD400A76D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B213F7CE2817DBD400A76D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QUPYT94598;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kanbo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kanbo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B213F7CF2817DBD400A76D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QUPYT94598;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kanbo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kanbo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B213F7D12817DBD400A76D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QUPYT94598;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KanboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kanbo.app/Kanbo";
+			};
+			name = Debug;
+		};
+		B213F7D22817DBD400A76D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QUPYT94598;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KanboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kanbo.app/Kanbo";
+			};
+			name = Release;
+		};
+		B213F7D42817DBD400A76D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QUPYT94598;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KanboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kanbo;
+			};
+			name = Debug;
+		};
+		B213F7D52817DBD400A76D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QUPYT94598;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KanboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kanbo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B213F79E2817DBD300A76D97 /* Build configuration list for PBXProject "Kanbo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B213F7CB2817DBD400A76D97 /* Debug */,
+				B213F7CC2817DBD400A76D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B213F7CD2817DBD400A76D97 /* Build configuration list for PBXNativeTarget "Kanbo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B213F7CE2817DBD400A76D97 /* Debug */,
+				B213F7CF2817DBD400A76D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B213F7D02817DBD400A76D97 /* Build configuration list for PBXNativeTarget "KanboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B213F7D12817DBD400A76D97 /* Debug */,
+				B213F7D22817DBD400A76D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B213F7D32817DBD400A76D97 /* Build configuration list for PBXNativeTarget "KanboUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B213F7D42817DBD400A76D97 /* Debug */,
+				B213F7D52817DBD400A76D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B213F79B2817DBD300A76D97 /* Project object */;
+}
