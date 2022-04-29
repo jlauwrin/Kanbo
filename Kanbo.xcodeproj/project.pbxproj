@@ -16,6 +16,18 @@
 		B213F7BE2817DBD400A76D97 /* KanboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213F7BD2817DBD400A76D97 /* KanboTests.swift */; };
 		B213F7C82817DBD400A76D97 /* KanboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213F7C72817DBD400A76D97 /* KanboUITests.swift */; };
 		B213F7CA2817DBD400A76D97 /* KanboUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213F7C92817DBD400A76D97 /* KanboUITestsLaunchTests.swift */; };
+		B213F7D72817E0C600A76D97 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213F7D62817E0C600A76D97 /* OnboardingViewController.swift */; };
+		B213F7D92817E45E00A76D97 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213F7D82817E45E00A76D97 /* Schedule.swift */; };
+		B279CD4928190B9C00A06EED /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = B279CD4828190B9C00A06EED /* OnboardingSlide.swift */; };
+		B279CD4B281926E200A06EED /* OnboardingCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B279CD4A281926E200A06EED /* OnboardingCollectionCell.swift */; };
+		B2874E05281998A00016D9D3 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2874E04281998A00016D9D3 /* Project.swift */; };
+		B2874E0728199A4D0016D9D3 /* ProjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2874E0628199A4D0016D9D3 /* ProjectCell.swift */; };
+		B2874E0B2819A0EA0016D9D3 /* ProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2874E0A2819A0EA0016D9D3 /* ProjectViewController.swift */; };
+		B2874E0D2819A3170016D9D3 /* ProjectListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2874E0C2819A3170016D9D3 /* ProjectListViewController.swift */; };
+		B2B34928281A9370007F5BD2 /* ProjectDescViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B34927281A9370007F5BD2 /* ProjectDescViewController.swift */; };
+		B2B4893328193DA70000E645 /* MonthlyCallendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4893228193DA70000E645 /* MonthlyCallendar.swift */; };
+		B2B48937281942DB0000E645 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B48936281942DB0000E645 /* CalendarCell.swift */; };
+		B2B48977281984740000E645 /* DeadlineDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B48976281984740000E645 /* DeadlineDate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,18 @@
 		B213F7C32817DBD400A76D97 /* KanboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B213F7C72817DBD400A76D97 /* KanboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanboUITests.swift; sourceTree = "<group>"; };
 		B213F7C92817DBD400A76D97 /* KanboUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanboUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B213F7D62817E0C600A76D97 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		B213F7D82817E45E00A76D97 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		B279CD4828190B9C00A06EED /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
+		B279CD4A281926E200A06EED /* OnboardingCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionCell.swift; sourceTree = "<group>"; };
+		B2874E04281998A00016D9D3 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		B2874E0628199A4D0016D9D3 /* ProjectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCell.swift; sourceTree = "<group>"; };
+		B2874E0A2819A0EA0016D9D3 /* ProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewController.swift; sourceTree = "<group>"; };
+		B2874E0C2819A3170016D9D3 /* ProjectListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectListViewController.swift; sourceTree = "<group>"; };
+		B2B34927281A9370007F5BD2 /* ProjectDescViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDescViewController.swift; sourceTree = "<group>"; };
+		B2B4893228193DA70000E645 /* MonthlyCallendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyCallendar.swift; sourceTree = "<group>"; };
+		B2B48936281942DB0000E645 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		B2B48976281984740000E645 /* DeadlineDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadlineDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +123,22 @@
 		B213F7A52817DBD300A76D97 /* Kanbo */ = {
 			isa = PBXGroup;
 			children = (
+				B213F7D62817E0C600A76D97 /* OnboardingViewController.swift */,
+				B279CD4A281926E200A06EED /* OnboardingCollectionCell.swift */,
+				B279CD4828190B9C00A06EED /* OnboardingSlide.swift */,
 				B213F7A62817DBD300A76D97 /* AppDelegate.swift */,
+				B213F7D82817E45E00A76D97 /* Schedule.swift */,
 				B213F7A82817DBD300A76D97 /* SceneDelegate.swift */,
 				B213F7AA2817DBD300A76D97 /* ViewController.swift */,
 				B213F7AC2817DBD300A76D97 /* Main.storyboard */,
+				B2B34927281A9370007F5BD2 /* ProjectDescViewController.swift */,
+				B2874E0C2819A3170016D9D3 /* ProjectListViewController.swift */,
+				B2B48976281984740000E645 /* DeadlineDate.swift */,
+				B2874E04281998A00016D9D3 /* Project.swift */,
+				B2874E0628199A4D0016D9D3 /* ProjectCell.swift */,
+				B2B48936281942DB0000E645 /* CalendarCell.swift */,
+				B2B4893228193DA70000E645 /* MonthlyCallendar.swift */,
+				B2874E0A2819A0EA0016D9D3 /* ProjectViewController.swift */,
 				B213F7AF2817DBD400A76D97 /* Assets.xcassets */,
 				B213F7B12817DBD400A76D97 /* LaunchScreen.storyboard */,
 				B213F7B42817DBD400A76D97 /* Info.plist */,
@@ -258,9 +294,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B279CD4B281926E200A06EED /* OnboardingCollectionCell.swift in Sources */,
+				B279CD4928190B9C00A06EED /* OnboardingSlide.swift in Sources */,
+				B2B48977281984740000E645 /* DeadlineDate.swift in Sources */,
+				B2B4893328193DA70000E645 /* MonthlyCallendar.swift in Sources */,
 				B213F7AB2817DBD300A76D97 /* ViewController.swift in Sources */,
 				B213F7A72817DBD300A76D97 /* AppDelegate.swift in Sources */,
 				B213F7A92817DBD300A76D97 /* SceneDelegate.swift in Sources */,
+				B2874E0728199A4D0016D9D3 /* ProjectCell.swift in Sources */,
+				B213F7D92817E45E00A76D97 /* Schedule.swift in Sources */,
+				B2B34928281A9370007F5BD2 /* ProjectDescViewController.swift in Sources */,
+				B213F7D72817E0C600A76D97 /* OnboardingViewController.swift in Sources */,
+				B2B48937281942DB0000E645 /* CalendarCell.swift in Sources */,
+				B2874E0D2819A3170016D9D3 /* ProjectListViewController.swift in Sources */,
+				B2874E0B2819A0EA0016D9D3 /* ProjectViewController.swift in Sources */,
+				B2874E05281998A00016D9D3 /* Project.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
